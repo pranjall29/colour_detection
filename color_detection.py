@@ -8,7 +8,7 @@ ap = argparse.ArgumentParser()
 ap.add_argument('-i', '--image', required=True, help="Image Path")
 args = vars(ap.parse_args())
 img_path = args['image']
-
+#img_path=r"\colorpicture.jpg"
 #Reading the image with opencv
 img = cv2.imread(img_path)
 
